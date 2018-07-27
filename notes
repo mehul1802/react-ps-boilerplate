@@ -1,0 +1,17 @@
+//@JA - Notes will go here regarding how to do deployments and examples etc...
+//@JA - No sensitive information should be here!!
+
+//DEPLOYING WEB APP (Steps to do Manually...)
+npm run build
+aws s3 sync build/ s3://poolservice123-web
+aws cloudfront create-invalidation --distribution-id E1T1HLJN8IL406 --paths "/*"
+aws cloudfront create-invalidation --distribution-id E3MMIT29EIIDLC --paths "/*"
+
+//QUICK WAY TO DEPOY Staging~~
+npm run deploy
+
+//QUICK WAY TO DEPOY Dev~~
+npm run deploy:dev
+
+//QUICK WAY TO DEPOY Production~~
+npm run deploy:prod

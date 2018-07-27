@@ -1,0 +1,22 @@
+@import "global.scss";
+
+@import "./common/components/loader_button.scss";
+@import "./common/components/header.scss";
+@import "./common/components/footer.scss";
+
+@import "./common/containers/home.scss";
+@import "./common/containers/login.scss";
+@import "./common/containers/new_visit.scss";
+@import "./common/containers/not_found.scss";
+@import "./common/containers/signup.scss";
+@import "./common/containers/contact.scss";
+@import "./common/containers/about.scss";
+@import "./common/containers/service-area.scss";
+@import "./common/containers/service-detail.scss";
+@import "./common/containers/terms.scss";
+@import "./common/containers/services.scss";
+
+//import theming style
+@import "./themes/default/index.scss";
+@import "./themes/fathers-day/index.scss";
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Montserrat|Roboto+Condensed:300,400,700|Roboto:100,300,400,400i,500,500i,700,900,900i');

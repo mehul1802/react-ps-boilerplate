@@ -1,0 +1,204 @@
+%banner-section {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-size: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+%free-quote {
+    width: 303px;
+    align-self: flex-end;
+    margin: 40px 30px;
+    position: relative;
+}
+
+%quote-title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #ffffff;
+    
+}
+
+%send-btn {
+    padding: 5px;
+
+    .btn {
+        background: transparent;
+        border: none;
+        font-size: 25px;
+        font-weight: 500;
+        color: #fff;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        &:hover{
+            color: #1899d1;
+        }
+        i {
+            &:first-child {
+                padding-left: 5px;
+            }
+        }
+
+    }
+}
+
+%quote-fields {
+    padding: 0px 15px 35px;
+    margin: 0px;
+
+    .form-field {
+        background: transparent;
+        padding: 12px;
+        height: 43px;
+        margin-bottom: 12px;
+        color: #ffffff;
+        border-radius: 2px;
+        border: 1px solid #dcdcdc78;
+    }
+}
+
+%service-head {
+    position: relative;
+
+    h2 {
+        color: #0D1D31;
+        font-family: 'Roboto';
+        font-size: 33px;
+        position: relative;
+        width: 510px;
+        margin: 0 auto;
+font-weight:400;
+        &:before {
+            content: '';
+            border-bottom: 2px solid #000;
+            position: absolute;
+            top: 18px;
+            width: 43px;
+            left: 0px;
+        }
+
+        &:after {
+            content: '';
+            border-bottom: 2px solid #000;
+            position: absolute;
+            top: 18px;
+            width: 43px;
+            right: 0px;
+        }
+    }
+
+    > div {
+        margin: 0 auto;
+
+        h1 {
+            color: #1899D1;
+            font-size: 80px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .special {
+            color: #0D1D31;
+            font-family: BirdsofParadise;
+            font-size: 68px;
+            margin-top: 0px;
+            text-align: right;
+            margin-bottom: 0px;
+            @media only screen and (max-width: 768px){
+                font-size: 45px;
+            }
+
+        }
+    }
+}
+
+%service-packages {
+    margin-top: 30px;
+
+    .col-md-4 {
+        padding-left: 30px;
+        padding-right: 30px;
+
+        .col {
+            position: relative;
+            height: 370px;
+            padding: 46px;
+
+            .box {
+                height: 277px;
+                width: 100%;
+                border: 1px solid #ccc;
+                background-color: #FFFFFF;
+                box-shadow: 0 0 18px 5px rgba(0, 0, 0, 0.18);
+                border-radius: 5px;
+                text-align: center;
+
+                .header {
+                    position: relative;
+                    height: 130px;
+                    width: 100%;
+
+                    h2 {
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        position: relative;
+                        color: #0D1D31;
+                    }
+                }
+
+                .desc {
+                    color: #0D1D31;
+                    font-family: "Myriad Pro";
+                    font-size: 28px;
+                    line-height: 35px;
+                    text-align: center;
+                    margin-bottom: 15px;
+
+                    p {
+                        margin-bottom: 0px;
+                    }
+                }
+
+                .more-info {
+                    border: 1px solid #FFFFFF;
+                    background-color: #1899D1;
+                    line-height: 0px;
+                    padding: 10px 15px 6px;
+                    margin-bottom: 10px;
+
+                    a {
+                        color: #FFFFFF;
+                        font-family: "Myriad Pro";
+                        font-size: 25px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        padding: 0px;
+                        display: block;
+                        line-height: 25px;
+
+                        &:hover {
+                            text-decoration: none;
+                            color: #000000;
+                        }
+                    }
+                }
+
+                .pink-btn {
+                    border: 1px solid #FFFFFF;
+                    background-color: #EC0684;
+                }
+
+                .yellow-btn {
+                    border: 1px solid #FFFFFF;
+                    background-color: #FAC213;
+                }
+            }
+        }
+    }
+}

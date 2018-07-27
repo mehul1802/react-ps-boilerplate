@@ -1,0 +1,242 @@
+.service-area-component {
+    .banner-section {
+        background-image: url("../../assets/images/page-banner.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 170px 0px 250px 0px;
+
+        @media only screen and (max-width: 991px) {
+            padding: 170px 0px 100px 0px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            background: rgba(0, 0, 0, 0) url("../images/Slider-tablet.jpg") no-repeat scroll 0 0;
+            background-size: cover;
+            background-position-y: bottom;
+            padding: 250px 0px;
+        }
+
+        @media only screen and (max-width: 667px) {
+            padding: 120px 0px 100px 0px;
+        }
+
+        .caption {
+            background-color: rgba(0, 0, 0, 0.4);
+            display: block;
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px 0px;
+
+            @media only screen and (max-width: 1200px) {
+                width: 50%;
+            }
+
+            @media only screen and (max-width: 768px) {
+                padding: 15px 0px;
+            }
+
+            @media only screen and (max-width: 480px) {
+                padding: 10px 0px;
+            }
+
+            h1 {
+                font-size: 59px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                color: rgb(255, 255, 255);
+                text-transform: uppercase;
+                line-height: 1.2;
+                text-align: center;
+                margin-top: 0px;
+
+                @media only screen and (max-width: 1200px) {
+                    font-size: 24px;
+                }
+
+                @media only screen and (max-width: 667px) {
+                    font-size: 16px;
+                }
+
+                @media only screen and (max-width: 375px) {
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                }
+            }
+
+            h3 {
+                display: inline-block;
+                font-size: 18px;
+                font-family: "Roboto";
+                color: rgb(255, 255, 255);
+                line-height: 1.2;
+                text-align: left;
+                border-style: solid;
+                border-width: 1px;
+                border-color: rgb(255, 255, 255);
+                background-color: rgba(235, 235, 235, 0);
+                margin-top: 0px;
+                font-weight: 500;
+                padding: 5px 10px;
+                text-transform: uppercase;                
+
+                @media only screen and (max-width: 991px) {
+                    font-size: 12px;
+                    padding: 5px 10px;
+                    text-align: inherit;
+                }
+
+                @media only screen and (max-width: 375px) {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .service-area-detail {
+        padding-top: 60px;
+        padding-bottom: 78px;
+        @media only screen and (max-width: 1200px) {
+            padding-top: 0px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 44px;
+            font-family: "Roboto";
+            color: rgb(24, 153, 209);
+            font-weight: bold;
+            line-height: 1.2;
+            @media only screen and (max-width: 767px) {
+                font-size: 30px;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            font-family: "Roboto";
+            color: rgb(93, 93, 93);
+            line-height: 1.5;
+            text-align: left;
+            font-weight: 400;
+            margin-bottom: 50px;
+        }
+
+        .btn {
+            font-size: 18px;
+            font-family: "Roboto";
+            color: rgb(255, 255, 255);
+            line-height: 1.2;
+            text-align: center;
+            background-color: rgb(24, 153, 209);
+            padding: 10px 20px;
+            border-radius: 0px;
+            border-color: rgb(24, 153, 209);
+            font-weight: 400;
+        }
+
+        .location-service {
+            .row {
+                @media only screen and (max-width: 768px) {
+                    margin-bottom: 30px;
+                }
+            }
+            h3 {
+                font-size: 22px;
+                font-family: "Roboto";
+                font-weight: 400;
+                color: rgb(34, 35, 35);
+                line-height: 1.2;
+                text-align: left;
+                margin-top: 30px;
+                margin-bottom: 40px;
+            }
+
+            .panel-group {
+                margin-bottom: 60px;
+                @media only screen and (max-width: 767px) {
+                    margin-bottom: 0px;
+                }
+                .panel-default {
+                    border: 0px;
+                    box-shadow: none;
+                    margin-bottom: 20px;
+
+                    .panel-heading {
+                        padding: 0px;
+                        background-color: transparent;
+                        color: #373737;
+
+                        .panel-title {
+                            display: flex;
+
+                            a {
+                                font-size: 16px;
+                                font-family: "Roboto";
+                                font-weight: 400;
+                                color: #1899d1;
+
+                                &:before {
+                                    float: right !important;
+                                    font-family: FontAwesome;
+                                    content: "\f068";
+                                    border: 1px solid #1899d1;
+                                    border-radius: 50px;
+                                    text-align: center;
+                                    width: 20px;
+                                    font-size: 12px;
+                                    vertical-align: middle;
+                                    margin-left: 10px;
+                                    padding-top: 1px;
+                                    padding-right: 1px;
+                                }
+
+                                &:hover, &:active, &:focus {
+                                    text-decoration: none;
+
+                                    // color: #1899d1;
+                               
+                                }
+                            }
+
+                            .collapsed {
+                                color: #373737;
+
+                                &:before {
+                                    float: right !important;
+                                    content: "\f067";
+                                    border: 1px solid #373737;
+                                    border-radius: 50px;
+                                    text-align: center;
+                                    width: 20px;
+                                    font-size: 12px;
+                                    vertical-align: middle;
+                                    margin-left: 10px;
+                                    padding-top: 1px;
+                                    padding-right: 1px;
+                                }
+                            }
+                        }
+                    }
+
+                    .panel-body {
+                        border: 0px;
+                        font-size: 16px;
+                        font-family: "Roboto";
+                        font-weight: 400;
+                        color: #828181;
+
+                        ul {
+                            li {
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

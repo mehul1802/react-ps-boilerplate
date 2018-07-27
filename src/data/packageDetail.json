@@ -1,0 +1,19 @@
+{
+    "type": "Medium",
+    "price" : "49.99",
+    "content" : {
+        "desc" : "Our technician will be responsible for furnishing the required chemicals & maintaining the correct water chemistry in the pool. A series of water tests will be conducted on each weekly pool visit. The results of these tests will be interpreted to determine the corrections needed to maintain and ensure purity and water balance.",
+        "note" : "This package does not provide for the janitorial tasks such as filter cleaning, vacuum, brushing, or tile cleaning. These tasks are to be performed by a technician (You).",
+        "note2" : "Our Bronze service price starts at $49.99/mo. for an average 30x15' pool without spa that is screened in. This price is subject to change based on other specifications."
+    },
+    "otherPackages" : [
+        { 
+            "title" : "Most Popular Package",
+            "summary" : "Our Medium Used service price starts at $49.99/mo. This price is subject to change specifications." 
+        },
+        { 
+            "title" : "Last Used Package",
+            "summary" : "Our Medium Used service price starts at $49.99/mo. This price is subject to change specificatio" 
+        }
+    ]
+}

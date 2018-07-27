@@ -1,0 +1,131 @@
+{
+    "services": [
+        {
+            "name": "COMMERCIAL POOL SERVICE",
+            "link": ""
+        },
+        {
+            "name": "DECORATION POOL SERVICES",
+            "link": ""
+        },
+        {
+            "name": "RESIDENTIAL POOL SERVICE",
+            "link": ""
+        }
+    ],
+    "service": {
+        "title": "COMMERCIAL POOL SERVICE",
+        "subServices": [
+            {
+                "name": "Repair",
+                "link": ""
+            },
+            {
+                "name": "Renovations",
+                "link": ""
+            },
+            {
+                "name": "Equipment Install",
+                "link": ""
+            },
+            {
+                "name": "Interior Pool Surface",
+                "link": ""
+            },
+            {
+                "name": "Pressure Wash",
+                "link": ""
+            },
+            {
+                "name": "Pool Tile",
+                "link": ""
+            },
+            {
+                "name": "Pool Lightning",
+                "link": ""
+            },
+            {
+                "name": "General Pool Service",
+                "link": ""
+            },
+            {
+                "name": "Pool Opening & Closings",
+                "link": ""
+            },
+            {
+                "name": "Pool Inspections",
+                "link": ""
+            }
+        ],
+        "workingTime": {
+            "officeTime": [
+                {
+                    "timings": "Mon-Fri: 7:00am - 7:00pm"
+                },
+                {
+                    "timings": "Sat-Sun: 10:00am - 5:00pm"
+                }
+            ],
+            "address": "28 JACKSON BLVD STE 1020 CHICAGO",
+            "contact": "+1 800 603 6035"
+        },
+        "content": {
+            "paragraph1": "Pool Services can provide all of your commercial pool, spa, and fountain repair, renovation, and service needs. We offer complete pool renovation, maintenance, and servicing for our commercial customers. We provide all our services to clients ranging from community pools, water parks, camps, amusement parks, hotels, condominiums, colleges/universities, and more.",
+            "paragraph2": "We are committed to providing the highest quality pool service in the industry with well trained staff, quality equipment, staff support and advanced communications. We are up to date with all pool and spa rules and regulations and are capable of checking your facility to confirm you meet all current standards. Our staff of technicians is among the best trained in the industry and we maintain a comprehensive training program that includes bi weekly local classes and national training. We work with most major manufacturers to assist clients with warrantee claims and equipment updates. We also work with commercial pool builders to assist with warrantee claims and turnover of new facilities to commercial clients.",
+            "paragraph3": "We can help you take advantage of some of the major technology advances in the industry to both save on energy and provide better water quality. Some of the new technology items that we can assist with include:",
+            "technologies": [
+                {
+                    "name": "UV Disinfectan",
+                    "link": ""
+                },
+                {
+                    "name": "Chemical Controllers",
+                    "link": ""
+                },
+                {
+                    "name": "Variable speed controls for pumps",
+                    "link": ""
+                },
+                {
+                    "name": "Leak Detection that includes location and repair of leaks",
+                    "link": ""
+                },
+                {
+                    "name": "Deck repair and upgrades",
+                    "link": ""
+                }
+            ],
+            "paragraph4": "We can help you take advantage of some of the major technology advances in the industry to both save on energy and provide better water quality. Some of the new technology items that we can assist with include:",
+            "subTitle": "EXAMPLES OF COMMERCIAL CLIENTS THAT WE HAVE PROVIDED SERVICE FOR INCLUDE",
+            "paragraph5": "We can add features such as:",
+            "clients": [
+                {
+                    "name": "The National Park Service",
+                    "link": ""
+                },
+                {
+                    "name": "The Management Group",
+                    "link": ""
+                },
+                {
+                    "name": "Prince William County Parks",
+                    "link": ""
+                },
+                {
+                    "name": "Lansdowne Resort",
+                    "link": ""
+                },
+                {
+                    "name": "Washington DC Parks",
+                    "link": ""
+                },
+                {
+                    "name": "Bowling AFB",
+                    "link": ""
+                }
+            ],
+            "paragraph6": "Pool Services is committed to improving the quality of pool service and operations throughout the region. We are always available for reference, call or email with questions and we will do our best to assist with finding a solution for your problem.",
+            "buttonLabel": "REQUEST POOL SERVICE"
+        }
+    }
+}

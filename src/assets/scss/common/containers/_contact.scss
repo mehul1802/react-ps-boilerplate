@@ -1,0 +1,148 @@
+/*contact Page*/
+
+.contact-component {
+    .map-section{
+        img{
+            width: 100%;
+        }
+    }
+    .details-section {
+        padding-top: 65px;
+        padding-bottom: 100px;
+
+        .contact-details {
+            .header-top {
+                border: 1px solid rgb(24, 153, 209);
+                margin-bottom: 22px;
+            }
+
+            h1 {
+                font-size: 24px;
+                font-family: "Roboto";
+                color: rgb(75, 75, 75);
+                text-transform: uppercase;
+                line-height: 0.75;
+                text-align: left;
+                display: inline-block;
+                font-weight: 500;
+                margin-top: 0px;
+            }
+
+            h3 {
+                font-size: 16px;
+                font-family: "Roboto";
+                color: rgb(128, 128, 128);
+                line-height: 1.5;
+                text-align: left;
+                font-weight: 400;
+            }
+
+            .address {
+                margin-top: 33px;
+
+                ul {
+                    li {
+                        position: relative;
+                        padding-left: 40px;
+                        margin-bottom: 22px;
+                        h6 {
+                            font-size: 16px;
+                            font-family: "Roboto";
+                            color: #5a5959;
+                            line-height: 15px;
+                            text-align: left;
+                            font-weight: 500;
+                            text-transform: uppercase;
+                        }
+
+                        span, a {
+                            font-size: 14px;
+                            font-family: "Roboto";
+                            color: #808080;
+                            line-height: 1.5;
+                            text-align: left;
+                            font-weight: 400;
+                        }
+
+                        &:before {
+                            content: "";
+                            display: inline-block;
+                            font: normal normal normal 14px/1 FontAwesome;
+                            font-size: inherit;
+                            text-rendering: auto;
+                            -webkit-font-smoothing: antialiased;
+                            position: absolute;
+                            left: 0px;
+                            font-size: 20px;
+                        }
+                    }
+
+                    .address {
+                        &:before {
+                            content: "\f041";
+                        }
+                    }
+
+                    .phone {
+                        &:before {
+                            content: "\f095";
+                        }
+                    }
+
+                    .time {
+                        &:before {
+                            content: "\f017";
+                        }
+                    }
+
+                    .mail {
+                        &:before {
+                            content: "\f0e0";
+                        }
+                    }
+                }
+            }
+
+            form {
+                margin-top: 75px;
+
+                .quote-fields {
+                    label {
+                        font-size: 14px;
+                        font-family: "Roboto";
+                        color: rgb(155, 155, 155);
+                        line-height: 1.714;
+                        text-align: left;
+                        font-weight: 500;
+                    }
+
+                    input {
+                        border-style: solid;
+                        border-width: 1px;
+                        border-color: rgb(208, 208, 208);
+                        background-color: rgba(203, 203, 203, 0);
+                        border-radius: 0px;
+                        margin-bottom: 15px;
+                        height: 38px;
+                        font-family: "Roboto";
+                        font-weight: 400;
+                    }
+                }
+                .btn-default {
+                    background-color: rgb(24, 153, 209);
+                    border:1px solid  rgb(24, 153, 209);
+                    width: 89px;
+                    height: 38px;
+                    color: #ffffff;
+                    border-radius: 0px;
+                    margin-right: 34px;
+                    font-size: 14px;
+                    font-family: "Roboto";
+                    color: rgb(255, 255, 255);
+                    line-height: 1.714;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

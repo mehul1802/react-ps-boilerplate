@@ -1,0 +1,25 @@
+{
+    "content": {
+        "title": "MORE THAN 20 YEARS OF EXPERIENCE",
+        "paragraph1": "Since 1979, our family-owned and operated business has provided expert maintenance and repair services, pool renovations, emergency repairs and more for homeowners and commercial and municipal pool management throughout Northern and Central New Jersey. We are quick to respond to our customers when they call and we maintain a 9700 sq. ft. warehouse of parts and supplies so that our customers aren’t inconvenienced while they wait for replacement parts to come in.",
+        "paragraph2": "Since 1979, our family-owned and operated business has provided expert maintenance and repair services, pool renovations, emergency repairs and more for homeowners and commercial and municipal pool management throughout Northern and Central New Jersey. We are quick to respond to our customers when they call and we maintain a 9700 sq. ft. warehouse of parts and supplies so that our customers aren’t inconvenienced while they wait for replacement parts to come in."
+    },
+    "services": [
+        {
+            "name": "POOL CONSTRUCTION",
+            "link": ""
+        },
+        {
+            "name": "POOL MAINENANCE",
+            "link": ""
+        },
+        {
+            "name": "CREATE SWIMMING POOL HOMES",
+            "link": ""
+        },
+        {
+            "name": "POOL CLEANING",
+            "link": ""
+        }
+    ]
+}

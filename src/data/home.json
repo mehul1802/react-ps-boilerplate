@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "basic": {
+            "price": "05.00",
+            "link": ""
+        },
+        "advanced": {
+            "price": "10.00",
+            "link": ""
+        },
+        "premium": {
+            "price": "25.00",
+            "link": ""
+        }
+    },
+    "discountPrice": 2,
+    "referral": {
+        "price": 7,
+        "link": ""
+    }
+}

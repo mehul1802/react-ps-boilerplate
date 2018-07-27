@@ -1,0 +1,964 @@
+.fathers-day {
+    .home-component {
+        .banner-section {
+            @extend %banner-section;
+
+            background-image: url("../images/fathers-day/banner-img.jpg");
+
+            @media only screen and (max-width: 768px) {
+                background: rgba(0, 0, 0, 0) url("../images/fathers-day/banner-img-tablet.jpg") no-repeat scroll 0 0;
+                background-size: cover;
+                height: 560px;
+            }
+
+            &:after {
+                content: '';
+                background: url("../images/fathers-day/hat-tie.png") no-repeat scroll 0 0;
+                position: absolute;
+                height: 134px;
+                width: 105px;
+                bottom: -50px;
+                left: 0px;
+
+                @media only screen and (max-width: 768px) {
+                    bottom: -133px;
+                }
+
+                @media only screen and (max-width: 640px) {
+                    display: none;
+                }
+            }
+
+            .free-quote {
+                @extend %free-quote;
+
+                background: rgba(34, 34, 34, 0.8);
+
+                @media only screen and (max-width: 768px) {
+                    margin-top: 80px;
+                }
+
+                &:after {
+                    content: '';
+                    background: url("../images/fathers-day/tie.png") no-repeat scroll 0 0;
+                    position: absolute;
+                    height: 110px;
+                    width: 152px;
+                    bottom: -54px;
+                    right: 0px;
+
+                    @media only screen and (max-width: 992px) {
+                        height: 138px;
+                        width: 190px;
+                        bottom: -78px;
+                        background-size: cover;
+                    }
+                }
+
+                .form-head {
+                    position: relative;
+
+                    .quote-title {
+                        @extend %quote-title;
+
+                        padding: 30px 15px;
+                        text-align: left;
+                    }
+
+                    &:before {
+                        display: none;
+                    }
+
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        top: -70px;
+                        right: -29px;
+                        height: 210px;
+                        width: 163px;
+                        background: url("../images/fathers-day/hat.png") no-repeat scroll 0 0;
+                    }
+                }
+
+                .quote-fields {
+                    @extend %quote-fields;
+                }
+
+                .send-btn {
+                    background: #212121;
+
+                    @extend %send-btn;
+                }
+            }
+        }
+
+        .service-section {
+            .service-head {
+                @extend %service-head;
+
+                h2 {
+                    @media only screen and (max-width: 768px) {
+                        font-size: 20px;
+                        width: 370px;
+                    }
+
+                    @media only screen and (max-width: 375px) {
+                        font-size: 15px;
+                        width: 300px;
+                    }
+
+                    &:before {
+                        @media only screen and (max-width: 768px) {
+                            top: 12px;
+                        }
+                        @media only screen and (max-width: 375px) {
+                            top: 8px;
+                        }
+                    }
+
+                    &:after {
+                        @media only screen and (max-width: 768px) {
+                            top: 12px;
+                        }
+                        @media only screen and (max-width: 375px) {
+                            top: 8px;
+                        }
+                    }
+                }
+
+                > div {
+                    max-width: 600px;
+
+                    @media only screen and (max-width: 768px) {
+                        max-width: 400px;
+                    }
+
+                    @media only screen and (max-width: 568px) {
+                        max-width: 300px;
+                    }
+
+                    h1 {
+                        font-family: 'Roboto';
+                        font-weight: 500;
+                        letter-spacing: 1.2px;
+                        text-align: center;
+                        margin-bottom: 0px;
+
+                        @media only screen and (max-width: 768px) {
+                            font-size: 55px;
+                        }
+
+                        @media only screen and (max-width: 568px) {
+                            font-size: 45px;
+                        }
+
+                        img {
+                            @media only screen and (max-width: 768px) {
+                                width: 55px;
+                            }
+
+                            @media only screen and (max-width: 375px) {
+                                width: 45px;
+                            }
+                        }
+
+                        // @media only screen and (max-width: 768px) {
+                        //     font-size: 32px;
+                        //     margin-top: 10px;
+                        // }
+                        span {
+                            position: relative;
+
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                top: -20px;
+                                left: -8px;
+                                height: 100%;
+                                width: 70px;
+                                background: url("../images/fathers-day/hat-small.png") no-repeat scroll 0 0;
+
+                                @media only screen and (max-width: 768px) {
+                                    background-size: 55px;
+                                    top: -17px;
+                                }
+
+                                @media only screen and (max-width: 375px) {
+                                    background-size: 45px;
+                                    top: -15px;
+                                }
+                            }
+                        }
+                    }
+
+                    .special {
+                        color: #0D1D31;
+                        font-family: BirdsofParadise;
+                        font-size: 68px;
+                        margin-top: 0px;
+                        text-align: right;
+                        position: relative;
+                        top: -30px;
+
+                        @media only screen and (max-width: 768px) {
+                            font-size: 43px;
+                            top: -20px;
+                        }
+
+                        @media only screen and (max-width: 568px) {
+                            font-size: 35px;
+                        }
+                    }
+                }
+            }
+
+            .service-packages {
+                @extend %service-packages;
+
+                .col-md-4 {
+                    .col {
+                        @media only screen and (max-width: 768px) {
+                            padding: 30px 20px;
+                            margin: 0 auto;
+                            max-width: 230px;
+                        }
+
+                        &:before {
+                            content: '';
+                            background: url("../images/fathers-day/watch.png") no-repeat scroll 0 0;
+                            position: absolute;
+                            height: 121px;
+                            width: 95px;
+                            top: 24px;
+                            right: 0px;
+                            z-index: 999;
+                            left: auto;
+
+                            @media only screen and (max-width: 992px) {
+                                width: 85px;
+                            }
+
+                            @media only screen and (max-width: 991px) {
+                                width: 60px;
+                                background-size: 45px;
+                                right: 0px;
+                            }
+
+                            @media only screen and (max-width: 768px) {
+                                background: url("../images/fathers-day/watch-tablet.png") no-repeat scroll 0 0;
+                                width: 55px;
+                                height: 80px;
+                            }
+                        }
+
+                        &:after {
+                            display: none;
+                        }
+
+                        .box {
+                            // @media only screen and (max-width: 991px) {
+                            //     height: 100%;
+                            //     width: 100%;
+                            // }
+
+                            .header {
+                                h2 {
+                                    top: 10px;
+                                    font-family: 'Roboto';
+                                    font-size: 46px;
+                                    font-weight: 600;
+
+                                    @media only screen and (max-width: 991px) {
+                                        font-size: 29px;
+                                        top: 5px;
+                                    }
+
+                                    @media only screen and (max-width: 768px) {
+                                        top: 10px;
+                                    }
+                                }
+
+                                @media only screen and (max-width: 768px) {
+                                    height: 100px;
+                                    background-size: cover;
+                                }
+                            }
+
+                            .blue {
+                                &:before {
+                                    position: absolute;
+                                    content: '';
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 162px;
+                                    background-image: url(../images/fathers-day/blue-curved-design.png);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+
+                                    @media only screen and (max-width: 991px) {
+                                        background-size: 100%;
+                                    }
+                                }
+
+                                &:after {
+                                    display: none;
+                                }
+                            }
+
+                            .pink {
+                                &:before {
+                                    position: absolute;
+                                    content: '';
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 162px;
+                                    background-image: url(../images/fathers-day/pink-curved-design.png);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+
+                                    @media only screen and (max-width: 991px) {
+                                        background-size: 100%;
+                                    }
+                                }
+
+                                &:after {
+                                    display: none;
+                                }
+                            }
+
+                            .yellow {
+                                &:before {
+                                    position: absolute;
+                                    content: '';
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 162px;
+                                    background-image: url(../images/fathers-day/yellow-curved-design.png);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+
+                                    @media only screen and (max-width: 991px) {
+                                        background-size: 100%;
+                                    }
+                                }
+
+                                &:after {
+                                    display: none;
+                                }
+                            }
+
+                            .desc {
+                                // @media only screen and (max-width: 991px) {
+                                //     font-size: 16px;
+                                //     line-height: 20px;
+                                // }
+                           
+                            }
+
+                            .more-info {
+                                // @media only screen and (max-width: 991px) {
+                                //     padding: 5px 10px 2px;
+                                // }
+
+                                a {
+                                    // @media only screen and (max-width: 991px) {
+                                    //     font-size: 14px;
+                                    // }
+                               
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .service-features {
+                margin-top: 20px;
+
+                @media only screen and (max-width: 768px) {
+                    margin-top: 0px;
+                }
+
+                h2 {
+                    color: #000000;
+                    font-family: 'Roboto';
+                    font-weight: 500;
+                    font-size: 23px;
+                    text-align: center;
+                    letter-spacing: 1.4px;
+                    text-rendering: optimizeLegibility;
+                    margin-bottom: 50px;
+
+                    @media only screen and (max-width: 992px) {
+                        font-size: 16px;
+                    }
+                }
+
+                .col-left {
+                    background: url("../images/fathers-day/service-features-left.jpg") no-repeat scroll 0 0;
+                    background-size: 100%;
+                    padding: 40px;
+
+                    @media only screen and (max-width: 767px) {
+                        padding: 80px;
+                    }
+
+                    @media only screen and (max-width: 568px) {
+                        padding: 50px;
+                    }
+
+                    @media only screen and (max-width: 480px) {
+                        padding-bottom: 40px;
+                    }
+
+                    @media only screen and (max-width: 375px) {
+                        padding: 35px;
+                        padding-bottom: 20px;
+                    }
+
+                    @media only screen and (max-width: 320px) {
+                        padding: 20px;
+                    }
+
+                    h2 {
+                        color: #ffffff;
+                        font-family: 'PRISTINA';
+                        font-size: 76px;
+                        margin-bottom: 0px;
+                        text-align: center;
+
+                        @media only screen and (max-width: 768px) {
+                            font-size: 45px;
+                        }
+
+                        @media only screen and (max-width: 767px) {
+                            font-size: 57px;
+                        }
+
+                        @media only screen and (max-width: 375px) {
+                            font-size: 50px;
+                        }
+
+                        @media only screen and (max-width: 320px) {
+                            font-size: 30px;
+                        }
+
+                        span {
+                            color: #ffffff;
+                            font-family: 'Roboto';
+                            font-weight: 500;
+                            font-size: 33px;
+                            text-transform: uppercase;
+                            margin-left: 10px;
+
+                            @media only screen and (max-width: 667px) {
+                                font-size: 25px;
+                            }
+
+                            @media only screen and (max-width: 320px) {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+
+                    h4 {
+                        color: #FFFFFF;
+                        font-family: 'Roboto';
+                        font-weight: 400;
+                        font-size: 25px;
+                        line-height: 42px;
+                        text-align: center;
+                        margin-top: 50%;
+                        margin-bottom: 0px;
+
+                        @media only screen and (max-width: 768px) {
+                            font-size: 15px;
+                        }
+
+                        @media only screen and (max-width: 767px) {
+                            font-size: 18px;
+                        }
+
+                        @media only screen and (max-width: 320px) {
+                            font-size: 15px;
+                            margin-top: 100px;
+                        }
+                    }
+
+                    ul {
+                        padding: 0px;
+                        margin: 0px;
+                        list-style: none;
+
+                        li {
+                            display: inline-block;
+                            color: #ffffff;
+                            font-size: 27px;
+
+                            @media only screen and (max-width: 767px) {
+                                font-size: 20px;
+                            }
+
+                            &:hover {
+                                color: #000000;
+                            }
+
+                            &:last-child {
+                                float: right;
+                            }
+
+                            a {
+                                font-family: 'Roboto';
+                                font-weight: 500;
+                                font-size: 27px;
+                                font-weight: 500;
+                                line-height: 42px;
+                                text-transform: uppercase;
+                                color: #ffffff;
+
+                                &:hover, &:focus {
+                                    text-decoration: none;
+                                    color: #000000;                                    
+                                }
+
+                                @media only screen and (max-width: 768px) {
+                                    font-size: 16px;
+                                }
+
+                                @media only screen and (max-width: 767px) {
+                                    font-size: 20px;
+                                }
+
+                                @media only screen and (max-width: 375px) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+
+                    h6 {
+                        color: #FFFFFF;
+                        font-family: "Myriad Pro";
+                        font-size: 25px;
+                        text-align: center;
+                        margin-top: 20px;
+                        margin-bottom: 50px;
+
+                        @media only screen and (max-width: 768px) {
+                            font-size: 15px;
+                            margin-top: 5px;
+                        }
+
+                        @media only screen and (max-width: 767px) {
+                            font-size: 18px;
+                            margin-bottom: 0px;
+                        }
+
+                        @media only screen and (max-width: 375px) {
+                            font-size: 16px;
+                        }
+
+                        @media only screen and (max-width: 320px) {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .col-right {
+                    background: url("../images/fathers-day/service-features-right.jpg") no-repeat scroll 0 0;
+                    background-size: 100%;
+                    padding: 40px;
+                    position: relative;
+
+                    @media only screen and (max-width: 767px) {
+                        padding: 80px;
+                    }
+
+                    @media only screen and (max-width: 568px) {
+                        padding: 50px;
+                    }
+
+                    @media only screen and (max-width: 375px) {
+                        background: url("../images/fathers-day/service-features-right-mobile.jpg") no-repeat scroll 0 0;
+                        padding: 35px;
+                        background-size: 100%;
+                    }
+
+                    @media only screen and (max-width: 320px) {
+                        padding: 20px;
+                    }
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        top: -25px;
+                        left: 0;
+                        right: auto;
+                        width: 150px;
+                        height: 162px;
+                        background: url("../images/fathers-day/spacts.png") no-repeat scroll 0 0;
+
+                        @media only screen and (max-width: 375px) {
+                            display: none;
+                        }
+                    }
+
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        top: -5px;
+                        left: auto;
+                        right: 0;
+                        width: 88px;
+                        height: 162px;
+                        background: url("../images/fathers-day/coffee-mug.png") no-repeat scroll 0 0;
+
+                        @media only screen and (max-width: 375px) {
+                            display: none;
+                        }
+                    }
+
+                    h2 {
+                        color: #ffffff;
+                        font-family: 'PRISTINA';
+                        font-size: 76px;
+                        margin-bottom: 0px;
+                        text-align: center;
+
+                        @media only screen and (max-width: 768px) {
+                            font-size: 45px;
+                            z-index: 999;
+                            position: relative;
+                        }
+
+                        @media only screen and (max-width: 767px) {
+                            font-size: 57px;
+                            margin-top: 0px;
+                        }
+
+                        @media only screen and (max-width: 375px) {
+                            font-size: 50px;
+                            margin-top: 0px;
+                        }
+
+                        @media only screen and (max-width: 320px) {
+                            font-size: 30px;
+                        }
+
+                        span {
+                            text-transform: uppercase;
+                            color: #ffffff;
+                            font-family: 'Roboto';
+                            font-weight: 500;
+                            font-size: 33px;
+                            margin-left: 10px;
+
+                            @media only screen and (max-width: 667px) {
+                                font-size: 25px;
+                            }
+
+                            @media only screen and (max-width: 320px) {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+
+                    .rate {
+                        font-size: 50.314px;
+                        font-family: "Roboto";
+                        color: white;
+                        font-weight: bold;
+                        line-height: 25px;
+                        margin: 0px;
+                        margin-top: 0px;
+                        width: 110px;
+                        height: 110px;
+                        padding-top: 35px;
+
+                        @media only screen and (max-width: 768px) {
+                            line-height: 15px;
+                            width: 62px;
+                            height: 62px;
+                            padding-top: 10px;
+                            right: 80px;
+                        }
+
+                        @media only screen and (max-width: 767px) {
+                            width: 77px;
+                            height: 77px;
+                            padding-top: 16px;
+                            right: 208px;
+                            margin-top: 35px;
+                        }
+
+                        @media only screen and (max-width: 667px) {
+                            right: 170px;
+                            margin-top: 10px;
+                        }
+
+                        @media only screen and (max-width: 568px) {
+                            right: 135px;
+                        }
+
+                        @media only screen and (max-width: 480px) {
+                            right: 100px;
+                            margin-top: 0px;
+                        }
+
+                        @media only screen and (max-width: 375px) {
+                            right: 76px;
+                            margin-top: 0px;
+                            width: 60px;
+                            height: 60px;
+                            padding-top: 9px;
+                        }
+
+                        @media only screen and (max-width: 320px) {
+                            right: 55px;
+                            margin-top: 15px;
+                        }
+
+                        .dollar {
+                            font-size: 50px;
+
+                            @media only screen and (max-width: 768px) {
+                                font-size: 25px;
+                            }
+                        }
+
+                        span {
+                            font-size: 25.667px;
+                            font-family: "Roboto";
+                            color: white;
+                            font-weight: bold;
+
+                            @media only screen and (max-width: 768px) {
+                                font-size: 12px;
+                                line-height: 0px;
+                            }
+                        }
+                    }
+
+                    h4 {
+                        color: #ffffff;
+                        font-family: 'Roboto';
+                        font-weight: 500;
+                        font-size: 27px;
+                        line-height: 42px;
+                        text-align: center;
+                        margin-top: 52%;
+                        margin-bottom: 0px;
+                        text-transform: uppercase;
+
+                        @media only screen and (max-width: 768px) {
+                            margin-top: 55%;
+                            font-size: 16px;
+                            line-height: 20px;
+                        }
+
+                        @media only screen and (max-width: 767px) {
+                            font-size: 20px;
+                            line-height: 30px;
+                        }
+
+                        @media only screen and (max-width: 667px) {
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                    }
+
+                    h6 {
+                        font-family: 'Roboto';
+                        font-weight: 600;
+                        font-size: 25px;
+                        text-align: center;
+                        margin-bottom: 15px;
+                        margin-top: 35px;
+
+                        @media only screen and (max-width: 768px) {
+                            font-size: 15px;
+                        }
+
+                        @media only screen and (max-width: 767px) {
+                            font-size: 18px;
+                        }
+
+                        @media only screen and (max-width: 667px) {
+                            font-size: 16px;
+                        }
+
+                        a {
+                            color: #ffffff;
+                            text-decoration: underline;
+                            &:hover {
+                                color: #000000;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .service-software {
+            padding-bottom: 50px;
+            position: relative;
+            overflow: hidden;
+            display: block;
+            clear: both;
+
+            .container {
+                @media only screen and (max-width: 768px) {
+                    width: 100%;
+                }
+            }
+
+            .col-md-11 {
+                margin: 0 auto;
+                float: none;
+                padding: 0px;
+            }
+
+            .header-service-software {
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+
+                @media only screen and (max-width: 768px) {
+                    max-width: 100%;
+                }
+
+                @media only screen and (max-width: 767px) {
+                    max-width: 328px;
+                    margin: 20px auto;
+                    text-align: center;
+                }
+
+                .head-service-soft {
+                    h4 {
+                        color: #0D1D31;
+                        font-family: 'Roboto';
+                        font-weight: 400;
+                        font-size: 33px;
+                        text-align: left;
+                        margin-top: 45px;
+                        margin-bottom: 30px;
+                        position: relative;
+                        padding-left: 50px;
+
+                        @media only screen and (max-width: 768px) {
+                            font-size: 19px;
+                            margin: 0px;
+                        }
+
+                        &:before {
+                            content: '';
+                            border-bottom: 2px solid #000;
+                            position: absolute;
+                            top: 18px;
+                            width: 43px;
+                            left: 0px;
+
+                            @media only screen and (max-width: 768px) {
+                                top: 8px;
+                            }
+                        }
+
+                        &:after {
+                            content: '';
+                            border-bottom: 2px solid #000;
+                            position: absolute;
+                            top: 18px;
+                            width: 43px;
+                            right: -10px;
+
+                            @media only screen and (max-width: 768px) {
+                                top: 8px;
+                                right: 10px;
+                            }
+                        }
+                    }
+
+                    .service-software-head {
+                        color: #000000;
+                        font-family: 'Pristina';
+                        font-size: 67px;
+                        text-align: left;
+                        margin-bottom: 0px;
+
+                        @media only screen and (max-width: 768px) {
+                            font-size: 39px;
+                        }
+
+                        @media only screen and (max-width: 767px) {
+                            text-align: center;
+                        }
+                    }
+                }
+
+                div {
+                    &:last-child {
+                        float: right;
+                        margin-right: 6px;
+                        text-align: right;
+
+                        @media only screen and (max-width: 768px) {
+                            display: inline;
+                        }
+
+                        @media only screen and (max-width: 767px) {
+                            display: none;
+                        }
+                    }
+
+                    img {
+                        position: relative;
+                        top: 10px;
+                        z-index: -11;
+
+                        @media only screen and (max-width: 768px) {
+                            width: 115px;
+                            top: 0px;
+                        }
+                    }
+                }
+            }
+
+            .img-pool-service, .img-pool-service-mobile {
+                width: 100%;
+            }
+
+            h2 {
+                margin: 0px;
+                margin-bottom: 0px;
+                color: #0D1D31;
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 30px;
+                letter-spacing: 1.5px;
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 0px;
+
+                @media only screen and (max-width: 768px) {
+                    font-size: 17px;
+                }
+            }
+
+            .additional-logo {
+                margin: 0 auto;
+                padding-top: 50px;
+            }
+
+            // @media only screen and (max-width: 768px) {
+            //     padding-bottom: 40px;
+            // }
+       
+        }
+    }
+}
+

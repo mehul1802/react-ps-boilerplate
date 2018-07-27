@@ -1,0 +1,50 @@
+@import "../fonts/fonts.scss";
+
+* {
+    outline-color: transparent;
+    outline-style: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline-color: transparent;
+    outline-style: none;
+ 
+}
+*:focus {
+    outline: none;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+.fix-width {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.float-right {
+    float: right !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+a, button{
+    transition:.5s;
+}
+
+.App.container{
+    @media only screen and (max-width: 480px) {        
+        padding: 0px;
+    }
+}

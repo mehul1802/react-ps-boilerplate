@@ -1,0 +1,74 @@
+{
+    "title": "TERMS OF SERVICE & PRIVACY POLICY",
+    "desc": "Welcome to our website. If you continue to browse and use this website you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern Afan Valley's relationship with you in relation to this website.",
+    "terms": [
+        {
+            "title" : "USE OF THE SERVICES",
+            "content": "You may use the Services for personal and business purposes. However, you may not sell, lease or resell the services to or on behalf of any other party. In addition, you may not use, or permit to be used, SwimmingPool.com Services in violation of any applicable law, regulation or policy, or in violation of any third parties' rights."
+        },
+        {
+            "title" : "TERMS AND CONDITIONS OF USE.",
+            "content": [
+                "Agreement to Terms. By using the information, services and products available through SwimmingPool.com you are agreeing to the terms and conditions contained herein.",
+                "Modification. SwimmingPool.com reserves the right to modify the Terms of Service at any time, and such modifications shall be effective immediately upon the earlier of posting of the modified Terms of Service or by e-mail notification to you.",
+                "You agree that these standards for notice of changes are reasonable.",
+                "You agree to review these Terms of Service periodically to be aware of such modifications, and your continued access or use of this website shall be deemed your acceptance of the modified Terms of Service."
+            ]
+        },
+        {
+            "title" : "YOUR INFORMATION",
+            "content": [
+                "By giving us your email address, you are certifying in this Agreement that you have the right to use your email address.",
+                "Modification. SwimmingPool.com reserves the right to modify the Terms of Service at any time, and such modifications shall be effective immediately upon the earlier of posting of the modified Terms of Service or by e-mail notification to you.",
+                "In exchange for use of this website, you agree that any information you submit to us will be current and complete and will not violate the rights of any third parties, and you agree to defend, indemnify, and hold harmless SwimmingPool.com, its affiliates and content suppliers, and their successors against any claims by third-parties alleging facts in breach of these representations.",
+                "While SwimmingPool.com will not knowingly divulge your email address or any other personal information to outside parties, you agree that SwimmingPool.com will not be liable for acquisition or use of your information by any third party without SwimmingPool.com's knowledge or consent. In turn, you agree that SwimmingPool.com will not be liable for the acquisition or use of personal information about you that is not under our control."
+            ]
+        },
+        {   
+            "title" : "OWNERSHIP",
+            "content": [
+                "SwimmingPool.com has and shall retain all right, title and interest in and to any software or technology used in providing the Services, and all intellectual property rights therein.",
+                "All content included on this website, including text, graphics, logos, buttons, icons, and images, is the property of SwimmingPool.com or its affiliates, content suppliers, or other licensors, with ownership as indicated by specific copyright and trademark notices and/or context, and is protected by U.S, and international copyright and trademark laws."
+            ]
+        },
+        {
+            "title" : "CONSUMER INFORMATION",
+            "content": "The consumer information contained here is intended, in part, to alert the reader to pertinent issues regarding this site. The information contained herein is not intended as a substitute for professional consultation. If professional assistance is required, the services of a competent professional person should be sought."
+        },
+        {
+            "title" : "PRICING AND AVAILABILITY",
+            "content": "Any pricing information listed on this web site is subject to change without notice. Certain items herein may be discontinued or may be unavailable in some areas."
+        },
+        {
+            "title" : "DISCLAIMERS",
+            "content": [
+                "The availability of the Services depends on many factors, including your connection to the Internet, the availability of the SwimmingPool.com's website or services, and equipment that is not, by its nature, fault tolerant.",
+                "SwimmingPool.com and its affiliates and content suppliers reserve the right to alter or delete the products, services and information available from this website at any time.",
+                "The information contained in this World Wide Web site is provided for informational purposes only. While SwimmingPool.com has tried to provide accurate and timely information there may be inadvertent inaccuracies and typographical errors. We reserve the right to make changes and corrections at any time, without notice.",
+                "SwimmingPool.com does not warrant the accuracy, completeness or usefulness of the information, text, links or other items contained on this website and SwimmingPool.com expressly disclaims liability for errors or omissions in these materials."
+            ]
+        },
+        {
+            "title" : "COPYRIGHT",
+            "content": "The content of this web site, including but not limited to the text and images herein and their arrangement are copyright ©2015 SwimmingPool.com. All Rights Reserved. Certain images herein are owned by and have been provided by our members and are used with permission. Please contact us if you are interested in receiving permission for commercial or non-commercial use of any of the images or content herein."
+        },
+        {
+            "title" : "TERMINATION OF SERVICE",
+            "content": [
+                "Either you or SwimmingPool.com may terminate this Agreement and the Services at any time and for any reason, but until that time it remains in full force and effect.",
+                "These terms will terminate immediately without notice from SwimmingPool.com if in SwimmingPool.com's sole discretion you fail to comply with any term or provision of this Agreement.",
+                "These terms are effective until terminated by either party. You may terminate these terms at any time by destroying all materials obtained from any and all SwimmingPool.com site(s) and all related documentation and all copies and installations thereof, whether made under the terms of these terms or otherwise.",
+                "Upon termination, you must destroy all materials obtained from the site and any and all other SwimmingPool.com site(s) and all copies thereof, whether made under the terms of these terms or otherwise."
+            ]
+        },
+        {
+            "title" : "MISCELLANEOUS",
+            "content": [
+                "Nonwaiver. SwimmingPool.com's failure to enforce any provision of this Agreement will not be construed as a waiver of any provision or right.",
+                "Amendment. SwimmingPool.com can revise these Terms and Conditions by updating this posting. No amendment or modification hereof will be valid or binding upon either party unless assented to by SwimmingPool.com.",
+                "Entire Agreement. This Agreement constitutes the entire agreement between you and SwimmingPool.com with respect to the Services and supersedes all other agreements, contemporaneous and prior, between you and SwimmingPool.com with respect to the Services.",
+                "No Estoppel. Waiver by either party of a breach of any provision of this Agreement or the failure by either party to exercise any right hereunder shall not operate or be construed as a waiver of any subsequent breach of that right or as a waiver of any other right."
+            ]
+        }
+    ]
+}

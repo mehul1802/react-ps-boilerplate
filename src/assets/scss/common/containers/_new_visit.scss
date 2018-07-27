@@ -1,0 +1,24 @@
+.NewVisit form {
+    padding-bottom: 15px;
+}
+
+.NewVisit form textarea {
+    height: 100px;
+    font-size: 24px;
+}
+
+.NewVisit form .slider {
+    margin-left: 20px;
+    user-select: none;
+    max-width: 50%;
+    width: 100%;
+}
+
+.NewVisit form #ph, .NewVisit form #ch {
+    display: inline;
+    width: 45px; /* Specifically set to optimize mobile & desktop at same time */
+    margin-left: 20px;
+    font-size: 14px;
+    padding: 5px; /* Specifically set to optimize mobile & desktop at same time */
+    /*TODO - Adjust for desktop to wider widths */
+}
